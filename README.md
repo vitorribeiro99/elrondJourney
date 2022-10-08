@@ -1,3 +1,2 @@
 ### Notes
-
-Elrond Journey '22
+### Elrond Journey '22
