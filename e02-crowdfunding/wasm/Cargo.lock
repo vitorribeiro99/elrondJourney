@@ -44,17 +44,17 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd"
 
 [[package]]
-name = "crowdfunding-esdt"
+name = "e02-crowdfunding"
 version = "0.0.0"
 dependencies = [
  "elrond-wasm",
 ]
 
 [[package]]
-name = "crowdfunding-esdt-wasm"
+name = "e02-crowdfunding-wasm"
 version = "0.0.0"
 dependencies = [
- "crowdfunding-esdt",
+ "e02-crowdfunding",
  "elrond-wasm-node",
  "elrond-wasm-output",
 ]
@@ -62,6 +62,8 @@ dependencies = [
 [[package]]
 name = "elrond-codec"
 version = "0.13.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "bd1449be8cb1a5523818b9e9241b8c383352f9f20114a7b574848ac5525e5436"
 dependencies = [
  "arrayvec",
  "elrond-codec-derive",
@@ -71,6 +73,8 @@ dependencies = [
 [[package]]
 name = "elrond-codec-derive"
 version = "0.13.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "4a94c0a1843cce52b25a74d22afe51093949076ccb639917ee6cfb656855578e"
 dependencies = [
  "hex",
  "proc-macro2",
@@ -81,6 +85,8 @@ dependencies = [
 [[package]]
 name = "elrond-wasm"
 version = "0.35.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "c46c561f295e132485c9741ffd45f7bd290eaf6442cac88adce7f25a6fe02462"
 dependencies = [
  "bitflags",
  "elrond-codec",
@@ -95,6 +101,8 @@ dependencies = [
 [[package]]
 name = "elrond-wasm-derive"
 version = "0.35.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "41fa5849244620efa6454d584338ecbd36e403b4f6f81d27d256b4ef0534b966"
 dependencies = [
  "hex",
  "proc-macro2",
@@ -106,6 +114,8 @@ dependencies = [
 [[package]]
 name = "elrond-wasm-node"
 version = "0.35.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "010d09c5080d9c7f5f60ace19730ace0a707a5f71fc6b9c21cd4a2b6227e4e9b"
 dependencies = [
  "elrond-wasm",
 ]
@@ -113,6 +123,8 @@ dependencies = [
 [[package]]
 name = "elrond-wasm-output"
 version = "0.35.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "150484a68b1d2fb34121702a62f40a9a39d267baa0f2cbe9cb0312d004bcd86b"
 dependencies = [
  "elrond-wasm-node",
  "wee_alloc",

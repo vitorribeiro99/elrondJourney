@@ -3,7 +3,7 @@ BOB="${USERS}/bob.pem"
 
 ADDRESS=$(erdpy data load --key=address-testnet)
 DEPLOY_TRANSACTION=$(erdpy data load --key=deployTransaction-testnet)
-PROXY=https://testnet-api.elrond.com
+PROXY="https://testnet-gateway.elrond.com"
 
 DEPLOY_GAS="80000000"
 TARGET=10
