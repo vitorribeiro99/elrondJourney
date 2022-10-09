@@ -1,0 +1,14 @@
+.idea
+.vscode
+/target
+
+# sudjested my otehr sc templates.
+*/target/
+
+# The erdpy output
+output
+/wallets/users/user.pem
+
+# interaction logs
+interaction-logs
+erdpy.data-storage.json
